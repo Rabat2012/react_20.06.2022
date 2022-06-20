@@ -1,0 +1,17 @@
+.card {
+  border: 1px solid grey;
+  margin-bottom: 45px;
+  background-color: rgba(34, 54, 70, 0.658);
+  padding: 15px;
+  color: antiquewhite;
+  display: flex;
+  flex-direction: column;
+}
+.list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.title {
+  font-size: 50px;
+}

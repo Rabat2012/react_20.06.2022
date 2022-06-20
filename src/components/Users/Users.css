@@ -1,0 +1,16 @@
+.card1 {
+  border: 1px solid rgb(220, 205, 205);
+  margin: 35px;
+  background-color: rgba(45, 148, 233, 0.733);
+  padding: 15px;
+  color: antiquewhite;
+  display: flex;
+  flex-direction: column;
+}
+.list1 {
+  display: flex;
+  flex-wrap: wrap;
+}
+.title1 {
+  font-size: 50px;
+}
