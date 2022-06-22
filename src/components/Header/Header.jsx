@@ -14,8 +14,8 @@ import MenuItem from "@mui/material/MenuItem";
 import AdbIcon from "@mui/icons-material/Adb";
 import { Link, useLocation } from "react-router-dom";
 
-const pages = ["Products", "Pricing", "Blog"];
-const settings = ["Profile", "Account", "Dashboard", "Logout"];
+const pages = ["Pokemons", "Pokemons2", "Rick and Morty"];
+const settings = ["Profile", "Account", "Posts", "Logout"];
 
 const Header = () => {
   const location = useLocation();
@@ -43,7 +43,12 @@ const Header = () => {
     <AppBar position="static">
       <Container maxWidth="xl">
         <Toolbar disableGutters>
-          <AdbIcon sx={{ display: { xs: "none", md: "flex" }, mr: 1 }} />
+          {/* <AdbIcon sx={{ display: { xs: "none", md: "flex" }, mr: 1 }} /> */}
+          <img
+            style={{ width: "80px", padding: "20px" }}
+            src="https://cdn.iconscout.com/icon/free/png-256/marvel-282124.png"
+            alt=""
+          />
           <Typography
             variant="h6"
             noWrap
@@ -53,12 +58,12 @@ const Header = () => {
               mr: 2,
               display: { xs: "none", md: "flex" },
               fontFamily: "monospace",
-              fontWeight: 700,
+              fontWeight: 900,
               letterSpacing: ".3rem",
               color: "inherit",
               textDecoration: "none",
             }}>
-            LOGO
+            Marvel Comics
           </Typography>
 
           <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
@@ -95,7 +100,7 @@ const Header = () => {
               ))}
             </Menu>
           </Box>
-          <AdbIcon sx={{ display: { xs: "flex", md: "none" }, mr: 1 }} />
+          {/* <AdbIcon sx={{ display: { xs: "flex", md: "none" }, mr: 1 }} /> */}
           <Typography
             variant="h5"
             noWrap
@@ -111,7 +116,7 @@ const Header = () => {
               color: "inherit",
               textDecoration: "none",
             }}>
-            LOGO
+            Marvel Comics
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
             {/* {pages.map(page => (

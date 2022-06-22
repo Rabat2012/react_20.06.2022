@@ -3,7 +3,7 @@ import { Button, TextField } from "@mui/material";
 import { Box } from "@mui/system";
 import { useNavigate } from "react-router-dom";
 
-const AddProduct = () => {
+const AddProduct = ({ addProduct }) => {
   const navigate = useNavigate();
   // console.log(navigate);
   const [title, setTitle] = useState("");
@@ -13,7 +13,14 @@ const AddProduct = () => {
     if (!title || !price || !image) {
       alert("Заполните все поля!");
     } else {
-      navigate("/");
+      let newProduct = {
+        title,
+        price,
+        image,
+      };
+      addProduct(newProduct);
+      console.log(newProduct);
+      navigate("/add");
     }
   }
   return (

@@ -1,0 +1,28 @@
+{
+  "products": [
+    {
+      "title": "Spider Man",
+      "price": "ss",
+      "image": "https://upload.wikimedia.org/wikipedia/en/2/21/Web_of_Spider-Man_Vol_1_129-1.png",
+      "id": 3
+    },
+    {
+      "title": "Iron Man",
+      "price": "453534",
+      "image": "https://upload.wikimedia.org/wikipedia/en/4/47/Iron_Man_%28circa_2018%29.png",
+      "id": 4
+    },
+    {
+      "title": "Doctor Strange",
+      "price": "rwewer",
+      "image": "https://images.comicbooktreasury.com/wp-content/uploads/2022/01/Doctor-Strange-Reading-Order-705x470.jpg",
+      "id": 5
+    },
+    {
+      "title": "Thanos",
+      "price": "asdasd",
+      "image": "https://imgix.ranker.com/list_img_v2/2286/2802286/original/best-thanos-comics-storylines",
+      "id": 6
+    }
+  ]
+}
